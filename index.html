@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prem Goykar | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Portfolio</h2>
+    <a href="#home">🏠 Home</a>
+    <a href="#about">👤 About</a>
+    <a href="#skills">⚡ Skills</a>
+    <a href="#projects">💻 Projects</a>
+    <a href="#photography">📸 Photography</a>
+    <a href="#contact">📞 Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+
+    <!-- Home -->
+    <section id="home" class="section">
+      <div class="profile">
+        <img src="Port.jpg" alt="Prem Goykar">
+        <h1>Prem Goykar</h1>
+        <p>Aspiring Engineer | Web Developer | Data Science Enthusiast</p>
+        <button onclick="scrollToSection('about')" class="btn">Read More</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Prem, passionate about technology, web development, and AI/Data Science.  
+        I enjoy building projects and solving real-world problems through code.  
+        My goal is to become a successful engineer and contribute to impactful projects.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js, Bootstrap</li>
+        <li>Java, Spring Boot</li>
+        <li>SQL, DBMS</li>
+        <li>AI & Data Science Basics</li>
+        <li>Problem Solving & DSA</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <!-- Photography Platform -->
+      <div class="project-block">
+        <h3>📸 Photography & Videography Booking Platform</h3>
+        <p>A full-stack web application that allows clients to book photographers and videographers.</p>
+        <ul>
+          <li><b>Client Panel:</b> Browse portfolios, book services, track bookings.</li>
+          <li><b>Photographer Panel:</b> Manage availability, upload portfolios, communicate with clients.</li>
+          <li><b>Admin Panel:</b> Approve professionals, monitor bookings, manage transactions.</li>
+        </ul>
+        <p><b>Workflow:</b></p>
+        <ol>
+          <li>Client browses available photographers.</li>
+          <li>Books a slot → notification sent to photographer.</li>
+          <li>Photographer accepts/rejects → client notified.</li>
+          <li>Admin manages disputes/payments if required.</li>
+        </ol>
+        <div class="gallery">
+          <img src=" Logo.png" alt="Photography Logo">
+          <img src=" Travel_landscape.jpeg" alt="Travel Landscape">
+          <img src=" WildLife.jpeg" alt="Wildlife Photography">
+        </div>
+      </div>
+
+      <!-- Dairy System -->
+      <div class="project-block">
+        <h3>🥛 Dairy Management System</h3>
+        <p>A management system for handling milk collection, distribution, and payments.</p>
+        <ul>
+          <li><b>Farmer Panel:</b> Record milk quantity, quality, and timings.</li>
+          <li><b>Vendor Panel:</b> Track milk received, payments, distribution.</li>
+          <li><b>Admin Panel:</b> Monitor collections, approve records, generate reports.</li>
+        </ul>
+        <p><b>Workflow:</b></p>
+        <ol>
+          <li>Farmer logs daily collection.</li>
+          <li>Vendor updates distribution details.</li>
+          <li>System calculates payments automatically.</li>
+          <li>Admin generates monthly/weekly reports.</li>
+        </ol>
+      </div>
+    </section>
+
+     
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:premgoyakar0@gmail.com">premgoyakar0@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/prem-goykar-3692b1257/">linkedin.com/in/prem</a></p>
+      <p>GitHub: <a href="https://github.com/ProPrem">github.com/prem</a></p>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
